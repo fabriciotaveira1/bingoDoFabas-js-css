@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: bingo, 'sans-serif' ;
+    src: url(./assets/fonts/bingo/BINGO.ttf);
+}
+
+body{
+    font-family: bingo;
+    background-color: rgba(128, 128, 128, 0.068);
+}
+
+#mainContent{
+    width: auto;
+    height: auto;
+}
+
+button{
+    width: 30rem;
+    height: 5rem;
+}
+
+
+#btnName{
+    font-size: 30px;
+    color: white;
+}
+
+#right{
+    width: 25%;
+    height: 60rem;
+    background-image: url(./assets/background2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#middle{
+    width: 50%;
+}
+
+#left{
+    width: 25%;
+    height: 60rem;
+    background-image: url(./assets/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#numberSorted{
+    font-size: 350px;
+}
+
